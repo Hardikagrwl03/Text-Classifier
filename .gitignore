@@ -1,0 +1,11 @@
+TextClassifierApp/.idea/
+TextClassifierApp/*.iml
+TextClassifierApp/.gradle/
+TextClassifierApp/build/
+TextClassifierApp/**/build/
+TextClassifierApp/local.properties
+*.log
+.DS_Store
+Thumbs.db
+*.jks
+*.keystore
