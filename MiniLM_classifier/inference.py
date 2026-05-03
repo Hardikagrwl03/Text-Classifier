@@ -97,7 +97,7 @@ def classify_document(text):
 # ============================================================
 
 sample_text = """
-Harshil weds Anjali
+My sugar level is 100 mg/dL, which is normal. My heart rate is 70 bpm, and my blood pressure is 120/80 mmHg. I have a headache and feel dizzy. I need to see a doctor for a check-up.
 """
 
 prediction = classify_document(
