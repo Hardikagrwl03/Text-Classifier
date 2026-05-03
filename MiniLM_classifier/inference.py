@@ -97,9 +97,7 @@ def classify_document(text):
 # ============================================================
 
 sample_text = """
-Axis Bank Account Statement
-Transaction Details
-Available Balance
+Harshil weds Anjali
 """
 
 prediction = classify_document(

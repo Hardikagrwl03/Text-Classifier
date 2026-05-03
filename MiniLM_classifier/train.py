@@ -22,7 +22,7 @@ from config import (
 # LOAD DATA
 # ============================================================
 
-df = pd.read_csv("data/dataset.csv")
+df = pd.read_csv("../data/dataset.csv")
 
 df["label_id"] = df["label"].map(LABELS)
 
@@ -68,12 +68,17 @@ device = torch.device(
     "cuda" if torch.cuda.is_available()
     else "cpu"
 )
+print(f"Using device: {device}")
 
 # ============================================================
 # MODEL
 # ============================================================
 
 model = MiniLMClassifier()
+
+print("\nModel Initialized!")
+print("\nModel Summary:")
+print(model)
 
 model.to(device)
 

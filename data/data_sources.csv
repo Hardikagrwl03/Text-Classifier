@@ -1,0 +1,4 @@
+id, label, source_link, parent_website
+1, Health, "https://www.kaggle.com/datasets/dikshaasinghhh/bajaj?resource=download", Kaggle
+2, Visiting_Card, "https://www.kaggle.com/datasets/nehakoppikar/business-cards-images", Kaggle
+3, Finance, "https://www.kaggle.com/datasets/mehaksingal/personal-financial-dataset-for-india", Kaggle

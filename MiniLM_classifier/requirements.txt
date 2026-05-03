@@ -1,5 +1,13 @@
+# For MiniLM
 torch
 transformers
 sentence-transformers
 scikit-learn
 pandas
+# For data extraction
+pytesseract 
+opencv-python 
+pandas 
+tqdm 
+pdf2image 
+pillow

@@ -21,7 +21,7 @@ LABELS = {
     "Travel": 1,
     "Invitation": 2,
     "Finance": 3,
-    "Visiting Card": 4
+    "Visiting_Card": 4
 }
 
 ID2LABEL = {v: k for k, v in LABELS.items()}
